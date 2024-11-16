@@ -76,7 +76,7 @@ class AddTodo extends StatelessWidget {
                           todo.title ?? "No title",
                           todo.body ?? "No body",
                         );
-                    // Navigate back to the previous screen
+                  
                     Navigator.pop(context);
                   },
                   child: const Text('Add Todo'),
